@@ -96,7 +96,7 @@ p{
     bottom:70px;
 }
 
-.music-box .music-text{
+.music-text{
     display: none;
 }
 
@@ -131,15 +131,14 @@ p{
     .footer{
         margin-bottom: 40px;
     }
-    .music-box .music-text{
+    .music-text{
         display: block;
         list-style: none;
         font-size: 17px;
         font-family: Gilroy, serif;
         color: whitesmoke;
-        padding-top: 7px;
-        position: absolute;
-        left: 67%;
-        top: 17px;
+        padding-top: 15px;
+        padding-right: 20px;
+        float: right;
     }
 }
