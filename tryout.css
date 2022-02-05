@@ -42,14 +42,14 @@ p{
 }
 
 .title{
-    font-family: Campanella;
+    font-family: Campanella, serif;
     font-size: 72px;
     line-height: 115px;
     color:#D6BD84;
 }
 
 .desc{
-    font-family: Gilroy;
+    font-family: Gilroy, serif;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
@@ -61,7 +61,7 @@ p{
 }
 
 .sign p{
-    font-family: Gilroy;
+    font-family: Gilroy, serif;
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
@@ -141,7 +141,7 @@ p{
         display: block;
         list-style: none;
         font-size: 17px;
-        font-family: Gilroy;
+        font-family: Gilroy, serif;
         color: whitesmoke;
         padding-top: 7px;
     }

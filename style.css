@@ -42,14 +42,14 @@ p{
 }
 
 .title{
-    font-family: Campanella;
+    font-family: Campanella, serif;
     font-size: 72px;
     line-height: 115px;
     color:#D6BD84;
 }
 
 .desc{
-    font-family: Gilroy;
+    font-family: Gilroy, serif;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
@@ -61,7 +61,7 @@ p{
 }
 
 .sign p{
-    font-family: Gilroy;
+    font-family: Gilroy, serif;
     font-size: 20px;
     font-weight: bold;
     color: #FFFFFF;
@@ -94,4 +94,52 @@ p{
     position: absolute;
     left:14px;
     bottom:70px;
+}
+
+.music-box .music-text{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .list3, .list4{
+        display: none;
+    }
+    .music{
+        left: 80%;
+        top: 85px;
+    }
+    .list2, .list1, .footer img{
+        width: 90px;
+    }
+    .desc{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .content{
+        margin: 105px 16px 0 16px;
+    }
+    .title{
+        font-size: 52px;
+        line-height: 83px;
+    }
+    .container{
+        height: auto;
+    }
+    .sign p{
+        font-size: 16px;
+    }
+    .footer{
+        margin-bottom: 40px;
+    }
+    .music-box .music-text{
+        display: block;
+        list-style: none;
+        font-size: 17px;
+        font-family: Gilroy, serif;
+        color: whitesmoke;
+        padding-top: 7px;
+        position: absolute;
+        left: 67%;
+        top: 17px;
+    }
 }
