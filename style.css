@@ -105,10 +105,10 @@ p{
         display: none;
     }
     .music{
-        left: 80%;
+        left: 77%;
         top: 85px;
     }
-    .list2, .list1, .footer img{
+    .list2, .footer img{
         width: 90px;
     }
     .desc{
@@ -117,6 +117,10 @@ p{
     }
     .content{
         margin: 105px 16px 0 16px;
+    }
+    .list1 img{
+        width: 70px;
+        margin-top: 5px;
     }
     .title{
         font-size: 52px;
